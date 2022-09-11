@@ -38,7 +38,7 @@ while True:
     else:
         print("Unknown Character")
         break
-print("You have chosen the character:", character)
+print("You have chosen the character: ", character)
 print("Health:", my_hp)
 print("Damage:", my_damage)
 
@@ -46,6 +46,7 @@ while True:
     dragon_hp = dragon_hp - dragon_damage
     print("The " + character + " damaged the Dragon!")
     print("The Dragon's hitpoints are now:", dragon_hp)
+    
 
     if dragon_hp <= 0:
         print("The Dragon has lost the battle")
